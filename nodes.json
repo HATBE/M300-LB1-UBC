@@ -1,0 +1,14 @@
+{ 
+    "nodes": { 
+        "dbs": { 
+            "description": "Database Server", 
+            "ip": "10.9.8.101", "ports": [
+                
+            ], 
+            "memory": 3072, 
+            "cpu": 2, 
+            "script": "scripts/dbinstall.sh", 
+            "args": "" 
+        } 
+    } 
+}
